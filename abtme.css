@@ -1,0 +1,145 @@
+body {
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    color: rgb(253, 251, 251);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    width: 50px;
+}
+
+.aimage{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(242, 240, 240);
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 30px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(3, 63, 53);
+    color: white;
+    transition: .1s;
+}
+
+.aboutus-background{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://cdn.fbsbx.com/v/t59.2708-21/410957440_2527594074088607_3303924167621624855_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=cf94fc&_nc_eui2=AeEHhMYKH_SXX92bR2-PWJszUNzIS0XCOpxQ3MhLRcI6nEjgNGVTeMUq5t0mS0kIAaxFXSUeFFkPSylJNeZCVGXm&_nc_ohc=hW6sQHeX4goAX8Tp9TW&_nc_ht=cdn.fbsbx.com&oh=03_AdQAaQ1s-4coSH8EBkk_b0McpoAAJoFoIDBQWbOYGc90tw&oe=6583208B);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.aboutus-container, .aboutus-container2{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+}
+
+
+.aboutus-text, .aboutus-text2 {
+    font-size: larger;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.about-us img{
+    width: auto;
+    height: 450px;
+    border-radius: 10px;
+}   
+
+.right, .right2{
+    animation-duration: 1.5s;
+    animation-name: slideright;
+}
+
+.left, .left2{
+    animation-duration: 1.5s;
+    animation-name: slideleft;
+}
+
+@keyframes slideleft {
+    from{
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes slideright {
+    from{
+        transform: translateX(50%);
+        opacity: 0;
+    }
+}
+
+
+

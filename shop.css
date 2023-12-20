@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #636060;
+}
+img:hover{
+    scale: 1.2;
+    transition: .10s;
+    cursor: pointer;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    width: 50px;
+}
+
+.aimage{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(242, 240, 240);
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 30px;
+}
+
+header button{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(3, 63, 53);
+    color: white;
+    transition: .1s;
+}
+
+.box img{
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+P{
+    font-family: monospace;
+    font-size: 20px;
+    color:black;
+    margin-left: 90px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+
+
